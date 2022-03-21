@@ -38,6 +38,9 @@ module.exports = {
           !file.includes('@ledgerhq/devices') &&
           !file.includes('@saberhq/use-solana'),
       });
+
+      config.resolve.fallback = { fs: false, path: false, os: false };
+
       return config;
     },
   },
