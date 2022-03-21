@@ -37,6 +37,11 @@
     "web-vitals": "^2.1.0",
     "zustand": "^3.7.1"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
