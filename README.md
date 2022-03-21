@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Solana frontend
 
 Template for creating a Solana Dapp.
 This is just boilerplate code and everything will have to be written by the user afterwards. Its just a way to get started without having to write all the config yourself.
